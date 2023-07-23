@@ -26,7 +26,7 @@
 
 .image {
   flex: 1;
-  background-image: url(/assets/read_news.jpg);
+  background-image: url(./assets/read_news.jpg);
   background-size: cover;
   background-position: 70%;
 }
@@ -98,7 +98,7 @@ form p {
 }
 
 #submit {
-  background: url(/assets/send.svg);
+  background: url(./assets/send.svg);
   background-size: cover;
   position: absolute;
   margin-left: 55%;
