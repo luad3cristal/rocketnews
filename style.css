@@ -67,6 +67,45 @@ img {
   line-height: 19px;
 }
 
+/* email */
+form {
+  margin: 50px 0 0 30px;
+  color: var(--form-color);
+}
+
+form p {
+  font-family: "Spartan";
+  font-size: 14px;
+  font-weight: 700;
+
+  margin: 0 0 17px 0;
+}
+
+.green {
+  border: solid 3px var(--title-color);
+  display: inline-flex;
+
+  height: 48px;
+  width: 5px;
+}
+
+#e-mail {
+  padding-left: 10px;
+  position: absolute;
+
+  width: 750px;
+  height: 48px;
+}
+
+#submit {
+  background: url(/assets/send.svg);
+  background-size: cover;
+  position: absolute;
+  margin-left: 750px;
+  width: 48px;
+  height: 48px;
+}
+
 /* @media (max-width: 1000px) {
   .image {
     background: black;
