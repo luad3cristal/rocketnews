@@ -93,7 +93,7 @@ form p {
   padding-left: 10px;
   position: absolute;
 
-  width: 750px;
+  min-width: 55%;
   height: 48px;
 }
 
@@ -101,24 +101,19 @@ form p {
   background: url(/assets/send.svg);
   background-size: cover;
   position: absolute;
-  margin-left: 750px;
-  width: 48px;
-  height: 48px;
+  margin-left: 55%;
+  width: 50px;
+  height: 50px;
 }
 
 /* leitura */
 .reading {
-  margin: 20px 0 0 30px;
+  margin: 70px 0 0 30px;
   display: flex;
 }
 
-.reading a img {
-  width: 24px;
-
-  position: relative;
-  right: 25px;
-
-  padding-bottom: 48px;
+.reading .ion-icon {
+  font-size: 16px;
 }
 
 .reading a {
@@ -130,11 +125,56 @@ form p {
   font-size: 14px;
 
   align-items: center;
+  gap: 5px;
   display: flex;
 }
 
-/* @media (max-width: 1000px) {
-  .image {
-    background: black;
+@media (max-width: 1000px) {
+  .background {
+    flex: 100%;
+    background: var(--body-bg-color);
   }
-} */
+
+  /* logo */
+  img {
+    margin: 30px 0 0 20px;
+  }
+
+  /* conteúdo */
+  .content {
+    margin: 92px 0 0 20px;
+  }
+
+  .content p {
+    font-size: 17px;
+
+    margin: 10px 0 14px 0;
+  }
+
+  .content span {
+    font-size: 15px;
+
+    line-height: 19px;
+  }
+
+  /* email */
+  form {
+    margin: 50px 0 0 20px;
+    color: var(--form-color);
+  }
+
+  #e-mail {
+    width: 80%;
+  }
+
+  #submit {
+    margin-left: 80%;
+    width: 49px;
+    height: 49px;
+  }
+
+  /* leitura */
+  .reading {
+    margin: 50px 0 0 20px;
+  }
+}
