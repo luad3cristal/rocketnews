@@ -109,17 +109,14 @@ form p {
 /* leitura */
 .reading {
   margin: 20px 0 0 30px;
-
   display: flex;
-  align-items: center;
-  gap: 5px;
 }
 
-.reading img {
+.reading a img {
   width: 24px;
 
   position: relative;
-  right: 30px;
+  right: 25px;
 
   padding-bottom: 48px;
 }
@@ -131,6 +128,9 @@ form p {
   font-family: "Spartan";
   font-weight: 700;
   font-size: 14px;
+
+  align-items: center;
+  display: flex;
 }
 
 /* @media (max-width: 1000px) {
