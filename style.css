@@ -106,6 +106,33 @@ form p {
   height: 48px;
 }
 
+/* leitura */
+.reading {
+  margin: 20px 0 0 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reading img {
+  width: 24px;
+
+  position: relative;
+  right: 30px;
+
+  padding-bottom: 48px;
+}
+
+.reading a {
+  text-decoration: none;
+  color: var(--bg-button-color);
+
+  font-family: "Spartan";
+  font-weight: 700;
+  font-size: 14px;
+}
+
 /* @media (max-width: 1000px) {
   .image {
     background: black;
